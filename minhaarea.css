@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color:#002F66;
+    background-color:yellow;
 }
 header{
     text-align: center;
@@ -42,4 +42,5 @@ section{
 
 #div2, #div3, #div4,#div5, a:hover{
     color: rgb(189, 5, 36);
+
 }
