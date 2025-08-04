@@ -3,6 +3,7 @@
 }
 
 body{
+
     background-color:pink;
 }
 header{
@@ -42,4 +43,5 @@ section{
 
 #div2, #div3, #div4,#div5, a:hover{
     color: rgb(189, 5, 36);
+
 }
