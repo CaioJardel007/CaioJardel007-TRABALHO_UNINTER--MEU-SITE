@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #002f66;
+}
+
+header{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+section{
+    width: 600px;
+    height: 380px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.521);
+    border-radius: 15px;
+    
+}
+h3{
+    padding: 10px;
+    text-align: center;
+}
+#p{
+    padding-left: 10px;
+}

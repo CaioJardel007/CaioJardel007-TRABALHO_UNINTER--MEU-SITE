@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+
+body {
+    background-color: #002F66;
+
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    text-indent: 15px;
+    font-size: 30px;
+    text-align: justify;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR DE IDADE</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="favicon2025.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+    <h1>VERIFICADOR DE IMAGEM</h1>
+</header>
+<section>
+    <div>
+       <p>ANO DE NASCIMENTO:
+            <input type="number" name="txtano" id="txtano" min="0">
+        </p>
+        <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">MASCULINO</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">FEMININO</label>
+        </p>
+        <p>
+           <input type="button" value="VERIFICAR" onclick="verificar()">
+        </p>
+    </div>
+    <div id="res">
+      PREENCHA OS DADOS ACIMA PARA VER O RESULTADO!
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
