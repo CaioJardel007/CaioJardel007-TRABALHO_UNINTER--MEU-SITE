@@ -1,8 +1,13 @@
+//FUNÇÃO
 function verificar(){
+
+//VARIÁVEIS
     var data = new Date()
     var ano = data.getFullYear()
     var fano = document.getElementById('txtano')
     var res = document.getElementById('res')
+
+//CONDIÇÕES
     if (fano.value.length == 0 || Number(fano.value) > ano){
         window.alert('[ERRO] VERIQUE OS DADOS E TENTE NOVAMENTE!')
     }
